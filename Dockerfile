@@ -1,6 +1,6 @@
 # The Dockerfile defines the image's environment
 # Import Python runtime and set up working directory
-FROM python:2.7-alpine
+FROM python
 WORKDIR /app
 ADD . /app
 
